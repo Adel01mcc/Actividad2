@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a;
+}
+
+.descripcion {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 11px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+button {
+    padding: 11px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#mensaje {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.error {
+    color: crimson;
+}
+
+.exito {
+    color: green;
+}
+
+h2 {
+    color: #333;
+    margin-top: 25px;
+}
+
+.contacto {
+    background-color: #f3f4f6;
+    border-left: 6px solid #9e9e9e;
+    padding: 15px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.contacto h3 {
+    margin: 0;
+    color: #1e3a8a;
+}
+
+.contacto p {
+    margin: 6px 0;
+    color: #333;
+}
+
+.botones {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.ver {
+    background-color: #16a34a;
+}
+
+.ver:hover {
+    background-color: #15803d;
+}
+
+.eliminar {
+    background-color: crimson;
+}
+
+.eliminar:hover {
+    background-color: darkred;
+}
+
+.info-extra {
+    background-color: #e0f2fe;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: none;
+}
