@@ -16,21 +16,6 @@ formulario.addEventListener("submit", function(evento) {
         return;
     }
 
-    if (nombre.length < 3) {
-        mostrarMensaje("El nombre debe tener al menos 3 caracteres.", "error");
-        return;
-    }
-
-    if (telefono.length < 9) {
-        mostrarMensaje("El teléfono debe tener al menos 9 dígitos.", "error");
-        return;
-    }
-
-    if (!correo.includes("@") || !correo.includes(".")) {
-        mostrarMensaje("Ingrese un correo electrónico correcto por favor.", "error");
-        return;
-    }
-
     let nuevoContacto = {
         nombre: nombre,
         telefono: telefono,
@@ -40,7 +25,7 @@ formulario.addEventListener("submit", function(evento) {
     contactos.push(nuevoContacto);
 
     mostrarContactos();
-    mostrarMensaje("Contacto registrado correctamente.", "hecho");
+    mostrarMensaje("Contacto registrado correctamente.", "exito");
 
     formulario.reset();
 });
