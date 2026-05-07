@@ -60,7 +60,7 @@ function mostrarContactos() {
 function eliminarContacto(index) {
     contactos.splice(index, 1);
     mostrarContactos();
-    mostrarMensaje("Contacto eliminado correctamente.", "error");
+    mostrarMensaje("Contacto eliminado.", "error");
 }
 
 function verInformacion(index) {
