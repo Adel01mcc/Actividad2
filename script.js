@@ -32,7 +32,6 @@ formulario.addEventListener("submit", function(evento) {
 
 function mostrarContactos() {
     listaContactos.innerHTML = "";
-
     contactos.forEach(function(contacto, index) {
         let tarjeta = document.createElement("div");
         tarjeta.className = "contacto";
@@ -56,7 +55,6 @@ function mostrarContactos() {
         listaContactos.appendChild(tarjeta);
     });
 }
-
 function eliminarContacto(index) {
     contactos.splice(index, 1);
     mostrarContactos();
