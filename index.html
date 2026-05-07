@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Agenda de Contactos</h1>
+        <p class="descripcion">Registra, visualiza y elimina contactos fácilmente.</p>
+
+        <form id="formularioContacto">
+            <input type="text" id="nombre" placeholder="Nombre del contacto">
+            <input type="text" id="telefono" placeholder="Número de teléfono">
+            <input type="email" id="correo" placeholder="Correo electrónico">
+            <button type="submit">Registrar contacto</button>
+        </form>
+
+        <p id="mensaje"></p>
+
+        <h2>Lista de contactos</h2>
+
+        <div id="listaContactos">
+            <!-- Aquí se mostrarán todos los contactos -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
