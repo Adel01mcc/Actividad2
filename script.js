@@ -27,7 +27,7 @@ formulario.addEventListener("submit", function(evento) {
     }
 
     if (!correo.includes("@") || !correo.includes(".")) {
-        mostrarMensaje("Ingrese un correo electrónico válido.", "error");
+        mostrarMensaje("Ingrese un correo electrónico correcto por favor.", "error");
         return;
     }
 
